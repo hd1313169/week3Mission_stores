@@ -1,0 +1,61 @@
+/* 導覽列 */
+.hamberger{
+    display: none;
+}
+/* 導覽列END */
+
+/* 門市據點 */
+.stores-title::before{
+    display: inline-block;
+    content: "";
+    vertical-align: middle;
+    background-color: #9F1213;
+    width: 8px;
+    height: 48px;
+    margin-right: 16px;
+}
+.stores-select{
+    display: flex;
+    align-items: center;
+    margin-bottom: 41px;
+
+}
+.stores-dropDown{
+    width: 23.4%;
+    font-size: 18px;
+    line-height: 1.44;
+    color: #495057;
+    opacity: 75%;
+    border: 1px solid #CED4DA;
+    border-radius: 0%;
+    padding: 6px 12px;
+}
+
+.stores{
+    display: flex;
+    margin-bottom: 80px;
+}
+.stores-item{
+    width: 40.6%;
+    margin-bottom: 48px;
+}
+.stores-item-title{
+    padding: 8px 24px;
+    border: 1px solid #00000020;
+}
+.stores-item-content{
+    padding: 16px 24px;
+    border: 1px solid #00000020;
+}
+.material-symbols-outlined{
+    display: block;
+    margin-right: 11px;
+}
+.stores-map{
+    width: 57.6%;
+    height: 414px;
+    max-height: 100%;
+    background-image: url(img/map_demo.png);
+    background-size: cover;
+    background-position: center center;
+}
